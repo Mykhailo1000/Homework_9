@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./css/to_do.css">
+  </head>
+  <body>
+    <h1>Список задач</h1>
+    <input type="text" id="taskInput" placeholder="Введіть задачу" />
+    <button id="addTask">Додати задачу</button>
+    <ul id="taskList"></ul>
+
+    <form id="dataForm">
+      <input type="text" id="username" placeholder="Логін" />
+      <input type="password" id="password" placeholder="Пароль" />
+      <button type="submit">Зберегти</button>
+    </form>
+
+    <h2>Закладки</h2>
+    <input type="text" id="bookmarkInput" placeholder="Введіть URL" />
+    <button id="addBookmark">Додати закладку</button>
+    <ul id="bookmarkList"></ul>
+
+    <h2>Контакти</h2>
+    <input type="text" id="contactName" placeholder="Ім'я" />
+    <input type="text" id="contactPhone" placeholder="Телефон" />
+    <input type="email" id="contactEmail" placeholder="Електронна адреса" />
+    <button id="addContact">Додати контакт</button>
+    <ul id="contactList"></ul>
+
+    <script src="./js/to_do.js"></script>
+  </body>
+</html>
